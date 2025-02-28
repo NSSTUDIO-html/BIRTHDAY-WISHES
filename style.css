@@ -27,7 +27,8 @@ h2 {
 
 .cardFront {
  position: relative;
- background-color: #F7879A;
+ background-image: linear-gradient(120deg, white 0%, orange 100%);
+
  width: 250px;
  height: 350px;
  overflow: hidden;
@@ -225,7 +226,8 @@ h2 {
 
 .cardInside {
  position: absolute;
- background-color: #F7879A;
+ background-image: linear-gradient(180deg, white 0%, orange 100%);
+
  width: 250px;
  height: 350px;
  z-index: -1;
